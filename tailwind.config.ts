@@ -71,7 +71,7 @@ export default {
         "experience-gradient":
           "linear-gradient(to bottom, #FFF7ED, #FFEDD5, #FED7AA, #DBEAFE)",
         "contact-gradient":
-          "linear-gradient(to bottom, #DBEAFE, #BFDBFE, #93C5FD, #FFFFFF)",
+          "linear-gradient(to bottom, #DBEAFE, #BFDBFE, #93C5FD, #93C5FD)",
       },
     },
   },

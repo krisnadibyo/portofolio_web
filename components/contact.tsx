@@ -11,7 +11,7 @@ interface ContactProps {
 export function Contact({ contact }: { contact: ContactProps }) {
   return (
     <>
-        <div className="text-center mb-12">
+      <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4 text-textDark">
           {contact.title}
         </h2>

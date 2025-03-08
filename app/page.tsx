@@ -67,14 +67,15 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <Contact contact={contact} />
         </div>
+        <footer className="shadow-md">
+          <div className="container mx-auto px-4 py-8">
+            <Footer footerText={footerText} />
+          </div>
+      </footer>
       </section>
 
       {/* Footer */}
-      <footer className="bg-white shadow-md">
-        <div className="container mx-auto px-4 py-8">
-          <Footer footerText={footerText} />
-        </div>
-      </footer>
+      
     </main>
   );
 }
