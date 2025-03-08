@@ -2,7 +2,7 @@ import { Code, FolderKanban, Brain, PersonStanding } from "lucide-react"
 
 // Hero Section
 export const hero = {
-  name: "I am Krisna Dibyo",
+  name: "Krisna Dibyo Atmojo",
   title: "Curious Software Engineer",
   description: "A tech enthusiast with a passion for building products that solve real-world problems.",
 }
