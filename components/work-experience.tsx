@@ -40,8 +40,14 @@ function ExperienceCard({
 }: WorkExperienceProps) {
   return (
     <CardWrapper className="relative border border-orange-200 shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1">
-      <div className="absolute -left-3 top-4 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-        <Image src={image} alt="window" width={16} height={16} />
+      <div className="absolute -left-3 top-4 w-8 h-8 rounded-full flex items-center justify-center overflow-hidden">
+        <Image
+          src={image}
+          alt={`${company} logo`}
+          width={32}
+          height={32}
+          className="rounded-full object-contain"
+        />
       </div>
       <div className="ml-6">
         <h3 className="text-lg font-semibold text-textDark">{position}</h3>
