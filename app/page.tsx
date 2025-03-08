@@ -3,6 +3,7 @@ import { Services } from "@/components/services"
 import { Projects } from "@/components/projects"
 import { WorkExperience } from "@/components/work-experience"
 import { Navbar } from "@/components/navbar"
+import { hero, services, servicesHeader, stats } from "@/app/data/constant"
 import { Phone, Mail, MapPin } from "lucide-react"
 
 export default function Home() {
@@ -11,27 +12,25 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-hero-gradient pt-32 pb-20">
+      <section className="bg-hero-gradient pt-32 pb-4">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl lg:text-6xl font-bold mb-4 text-textDark">
-              I am Lukman
-              <span className="block text-primary mt-2">Next-Level Web Developer.</span>
+              {hero.name}
+              <span className="block text-primary mt-2">{hero.title}</span>
             </h1>
             <p className="text-gray-700 mb-8 text-lg">
-              I help companies solve problems by building accessible and inclusive web products and digital experiences
-              that deliver exceptional user value.
+              {hero.description}
             </p>
           </div>
-
-          <Stats />
+          <Stats stats={stats} />
         </div>
       </section>
 
       {/* Services Section */}
       <section className="bg-services-gradient py-16" id="services">
         <div className="container mx-auto px-4">
-          <Services />
+          <Services servicesHeader={servicesHeader} services={services} />
         </div>
       </section>
 

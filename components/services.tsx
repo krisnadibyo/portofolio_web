@@ -1,11 +1,16 @@
 import type React from "react"
-import { Code, Palette, Globe } from "lucide-react"
 import { CardWrapper } from "./ui/card-wrapper"
 
 interface ServiceProps {
+  id: number
   title: string
   description: string
   icon: React.ReactNode
+}
+
+interface ServicesHeaderProps {
+  title: string
+  description: string
 }
 
 function ServiceCard({ title, description, icon }: ServiceProps) {
@@ -18,32 +23,25 @@ function ServiceCard({ title, description, icon }: ServiceProps) {
   )
 }
 
-export function Services() {
+export function Services({ servicesHeader, services }: { servicesHeader: ServicesHeaderProps, services: ServiceProps[] }) {
   return (
     <>
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4 text-textDark">What I Do</h2>
+        <h2 className="text-3xl font-bold mb-4 text-textDark">{servicesHeader.title}</h2>
         <p className="text-gray-700 max-w-2xl mx-auto">
-          I offer a wide range of services to help businesses and individuals create impactful digital experiences.
-          Here's how I can help you succeed.
+          {servicesHeader.description}
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <ServiceCard
-          icon={<Code size={24} />}
-          title="Website Design"
-          description="I craft custom stunning, user-friendly, and responsive designs tailored to your needs."
-        />
-        <ServiceCard
-          icon={<Palette size={24} />}
-          title="UI/UX Design"
-          description="Creating intuitive and engaging user experiences that delight your users."
-        />
-        <ServiceCard
-          icon={<Globe size={24} />}
-          title="Web Development"
-          description="Building fast, secure, and scalable web applications using modern technologies."
-        />
+        {services.map((service) => (
+          <ServiceCard
+            id={service.id}
+            key={service.id}
+            icon={service.icon}
+            title={service.title}
+            description={service.description}
+          />
+        ))}
       </div>
     </>
   )

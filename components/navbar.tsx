@@ -69,14 +69,14 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#services" className="text-textDark hover:text-primary transition-colors font-medium">
-              Services
+            <Link href="#about" className="text-textDark hover:text-primary transition-colors font-medium">
+              About
             </Link>
             <Link href="#works" className="text-textDark hover:text-primary transition-colors font-medium">
               Works
             </Link>
-            <Link href="#experience" className="text-textDark hover:text-primary transition-colors font-medium">
-              Experience
+            <Link href="#contact" className="text-textDark hover:text-primary transition-colors font-medium">
+              Contact
             </Link>
           </div>
 
@@ -93,11 +93,11 @@ export function Navbar() {
           <div className="md:hidden">
             <div className="flex flex-col space-y-4 px-2 pt-2 pb-4">
               <Link
-                href="#services"
+                href="#about"
                 className="text-textDark hover:text-primary transition-colors font-medium"
                 onClick={() => setIsOpen(false)}
               >
-                Services
+                About
               </Link>
               <Link
                 href="#works"
@@ -107,11 +107,11 @@ export function Navbar() {
                 Works
               </Link>
               <Link
-                href="#experience"
+                href="#contact"
                 className="text-textDark hover:text-primary transition-colors font-medium"
                 onClick={() => setIsOpen(false)}
               >
-                Experience
+                Contact
               </Link>
             </div>
           </div>
