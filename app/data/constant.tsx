@@ -1,4 +1,4 @@
-import { Code, FolderKanban, PersonStanding } from "lucide-react"
+import { Code, FolderKanban, Brain, PersonStanding } from "lucide-react"
 
 // Hero Section
 export const hero = {
@@ -39,5 +39,122 @@ export const services = [
     title: "Project/Program Management",
     description: "3 years managing multiple and complex projects within budget and timeline.",
     icon: <FolderKanban size={24} />
+  },
+  {
+    id: 4,
+    title: "AI Solution",
+    description: "Creating AI solutions with Machine Learning, Generative LLM, and Deep Learning.",
+    icon: <Brain size={24} />
   }
 ]
+
+// Projects Section
+export const projectsHeader = {
+  title: "Featured Projects",
+  description: "Explore my latest projects. I've worked on a variety of projects, from web development to AI solutions."
+}
+
+export const projects = [
+  {
+    title: "Cover Letter Generator",
+    description: "A tool that generates cover letters for job applications using LLM.",
+    image: "/placeholder.svg?height=300&width=400",
+    demoLink: "https://coverletter.krisnadibyo.xyz",
+    githubLink: "https://github.com/krisnadibyo/cover-letter-generator",
+    techStack: [
+      { name: "React", color: "blue" },
+      { name: "TypeScript", color: "blue" },
+      { name: "Next.js", color: "blue" },
+      { name: "TailwindCSS", color: "blue" },
+      { name: "Deepseek", color: "blue" },
+    ],
+  }
+]
+
+// Work Experience Section
+export const workExperienceHeader = {
+  title: "Work Experience",
+  description: "My professional journey has equipped me with valuable experience across different roles and companies."
+}
+export const experiences = [
+  {
+    company: "Govtech Edu, Jakarta, Indonesia",
+    position: "Software Engineering Manager",
+    duration: "2020 - Dec 2024",
+    icon: "/govtech-edu.png",
+    description: `Key contributor in leading 15 engineers across 3 different engineering teams.
+    Built an education super app from scratch, serving 4 million teachers across Indonesia.
+    Led the mobile platform team to deliver key features while maintaining 99.9% stability, achieving recognition as the highest-rated government app with 4.9 stars.
+    Led the web platform team in developing tools and UI components, resulting in a 30% increase in frontend productivity.
+    Led the QA platform team in building automation tools and establishing performance testing frameworks,ensuring infrastructure readiness for serving a minimum 5,000 requests per second (RPS).`,
+    techStack: [
+      { name: "Management", color: "blue" },
+      { name: "Android", color: "blue" },
+      { name: "Full Stack", color: "blue" },
+      { name: "GCP", color: "blue" },
+      { name: "Next.js", color: "blue" },
+      { name: "React", color: "blue" },
+      { name: "TypeScript", color: "blue" },
+      { name: "Kotlin", color: "blue" },
+      { name: "Go", color: "blue" },
+      { name: "PostgreSQL", color: "blue" },
+      { name: "Docker", color: "blue" },
+      { name: "Gitlab CI", color: "blue" },
+      { name: "K6", color: "blue" },  
+    ],
+  },
+  {
+    company: "Bukalapak, Jakarta, Indonesia",
+    position: "Technical Program Manager",
+    duration: "2018 - 2020",
+    description: `Managed and maintained the release cycle for Bukalapak's Android and iOS platforms, successfully delivering 30 features per release.
+Streamlined the release process through clear guidelines and procedures, reducing the cycle time from 3 weeks to 2 weeks. Managed
+and coordinated incident responses with cross-functional teams, achieving a crash-free rate of 99%. Eliminated product team
+bottlenecks and enhanced agile practices, resulting in a 30% improvement in roadmap completion.`,
+    techStack: [
+      { name: "Project Management", color: "blue" },
+      { name: "Incident Management", color: "blue" },
+      { name: "Release Management", color: "blue" },
+      { name: "Agile/Scrum", color: "blue" },
+    ],
+  },
+  {
+    company: "Bukalapak, Jakarta, Indonesia",
+    position: "Software Engineer",
+    duration: "2014 - 2018",
+    description: `Developed and maintained core features of Bukalapak marketplace for both Android and iOS platforms, serving over 50 million
+monthly users. Implemented a real-time chat feature using WebSocket technology that significantly increased the Add-To-Cart rate by
+30%. Enhanced credit card payment processing by refactoring and improving code quality, which improved the payment success rate
+from 70% to 90%. Developed premium seller features that generated 50% increase in revenue streams.`,
+    techStack: [
+      { name: "Android", color: "blue" },
+      { name: "iOS", color: "blue" },
+      { name: "Java", color: "blue" },
+      { name: "Kotlin", color: "blue" },
+      { name: "Swift", color: "blue" },
+      { name: "Objective-C", color: "blue" },
+    ],
+  },
+  {
+    company: "GDP Venture, Jakarta, Indonesia",
+    position: "Software Engineer",
+    duration: "2013",
+    description: `Built an Android app from scratch for Infokost.id, a property rental listing platform. Successfully launched the app on Google Play
+Store while maintaining the crash-free rate of 99%.`,
+    techStack: [
+      { name: "Android", color: "blue" },
+      { name: "Java", color: "blue" },
+    ],
+  }
+]
+
+// Contact Section
+export const contact = {
+  title: "Let's Connect",
+  description: "Have a project in mind or want to discuss potential opportunities? I'm just a message away.",
+  email: "krisnadibyo@gmail.com",
+  address: "Jakarta, Indonesia",
+  github: "github.com/krisnadibyo",
+  linkedin: "linkedin.com/in/krisnadibyo",
+}
+export const footerText="© 2025 Krisna Dibyo. All rights reserved."
