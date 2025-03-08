@@ -22,9 +22,9 @@ interface ProjectProps {
   techStack: TechStack[]
 }
 
-function TechBadge({ name, color }: TechStack) {
+function TechBadge({ name }: TechStack) {
   return (
-    <span className={`inline-block px-2 py-1 rounded-full text-xs font-medium bg-${color}-100 text-${color}-800`}>
+    <span className={`inline-block px-2 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800`}>
       {name}
     </span>
   )
@@ -35,10 +35,10 @@ function ProjectCard({ title, description, image, demoLink, githubLink, techStac
     <CardWrapper className="overflow-hidden group hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
       <div className="relative h-48 mb-4">
         <Image
-          src={image || "/placeholder.svg"}
+          src={image || "/window.svg"}
           alt={title}
           fill
-          className="object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+          className="object-top rounded-lg transition-transform duration-300 group-hover:scale-110"
         />
       </div>
       <h3 className="text-lg font-semibold group-hover:text-primary transition-colors mb-2 text-textDark">{title}</h3>

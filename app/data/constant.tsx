@@ -58,7 +58,7 @@ export const projects = [
   {
     title: "Cover Letter Generator",
     description: "A tool that generates cover letters for job applications using LLM.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/cover-letter-generator.png",
     demoLink: "https://coverletter.krisnadibyo.xyz",
     githubLink: "https://github.com/krisnadibyo/cover-letter-generator",
     techStack: [
@@ -81,7 +81,7 @@ export const experiences = [
     company: "Govtech Edu, Jakarta, Indonesia",
     position: "Software Engineering Manager",
     duration: "2020 - Dec 2024",
-    icon: "/govtech-edu.png",
+    image: "/govtechedu.png",
     description: `Key contributor in leading 15 engineers across 3 different engineering teams.
     Built an education super app from scratch, serving 4 million teachers across Indonesia.
     Led the mobile platform team to deliver key features while maintaining 99.9% stability, achieving recognition as the highest-rated government app with 4.9 stars.
@@ -107,6 +107,7 @@ export const experiences = [
     company: "Bukalapak, Jakarta, Indonesia",
     position: "Technical Program Manager",
     duration: "2018 - 2020",
+    image: "/bl_logo.jpeg",
     description: `Managed and maintained the release cycle for Bukalapak's Android and iOS platforms, successfully delivering 30 features per release.
 Streamlined the release process through clear guidelines and procedures, reducing the cycle time from 3 weeks to 2 weeks. Managed
 and coordinated incident responses with cross-functional teams, achieving a crash-free rate of 99%. Eliminated product team
@@ -121,6 +122,7 @@ bottlenecks and enhanced agile practices, resulting in a 30% improvement in road
   {
     company: "Bukalapak, Jakarta, Indonesia",
     position: "Software Engineer",
+    image: "/bl_logo.jpeg",
     duration: "2014 - 2018",
     description: `Developed and maintained core features of Bukalapak marketplace for both Android and iOS platforms, serving over 50 million
 monthly users. Implemented a real-time chat feature using WebSocket technology that significantly increased the Add-To-Cart rate by
@@ -138,6 +140,7 @@ from 70% to 90%. Developed premium seller features that generated 50% increase i
   {
     company: "GDP Venture, Jakarta, Indonesia",
     position: "Software Engineer",
+    image: "/gdp_labs.png",
     duration: "2013",
     description: `Built an Android app from scratch for Infokost.id, a property rental listing platform. Successfully launched the app on Google Play
 Store while maintaining the crash-free rate of 99%.`,
