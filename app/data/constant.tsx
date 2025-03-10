@@ -68,7 +68,37 @@ export const projects = [
       { name: "TailwindCSS", color: "blue" },
       { name: "Deepseek", color: "blue" },
     ],
-  }
+  },
+  {
+    title: "AI-Powered Chat Expense Tracker",
+    description: "A chatbot that helps you track your expenses and save money.",
+    image: "/cover-letter-generator.png",
+    demoLink: "https://expense-tracker.krisnadibyo.xyz",
+    githubLink: "https://github.com/krisnadibyo/expense_api",
+    techStack: [
+      { name: "Python", color: "blue" },
+      { name: "FastAPI", color: "blue" },
+      { name: "PostgreSQL", color: "blue" },
+      { name: "Docker", color: "blue" },
+      { name: "Github Actions", color: "blue" },
+      { name: "Deepseek", color: "blue" },
+    ],
+  },
+  {
+    title: "Platform Merdeka Mengajar (Ruang GTK)",
+    description: "An Education super app that improves Indonesian teachers' quality",
+    image: "/pmm.png",
+    demoLink: "https://play.google.com/store/apps/details?id=id.belajar.app&hl=gsw",
+    githubLink: "",
+    techStack: [
+      { name: "Android", color: "blue" },
+      { name: "Kotlin", color: "blue" },
+      { name: "Jetpack Compose", color: "blue" },
+      { name: "PWA", color: "blue" },
+      { name: "Gitlab CI", color: "blue" },
+      { name: "Firebase", color: "blue" },
+    ],
+  },
 ]
 
 // Work Experience Section

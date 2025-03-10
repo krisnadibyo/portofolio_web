@@ -59,6 +59,7 @@ function ProjectCard({ title, description, image, demoLink, githubLink, techStac
             <ExternalLink size={16} /> Demo
           </a>
         </Button>
+        {githubLink && (
         <Button
           variant="outline"
           size="sm"
@@ -67,8 +68,9 @@ function ProjectCard({ title, description, image, demoLink, githubLink, techStac
         >
           <a href={githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
             <Github size={16} /> Code
-          </a>
-        </Button>
+            </a>
+          </Button>
+        )}
       </div>
     </CardWrapper>
   )
