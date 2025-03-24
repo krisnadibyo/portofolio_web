@@ -11,7 +11,7 @@ export const hero = {
 export const stats = [
   { id: 1, value: "10+", label: "Years of Experience" },
   { id: 2, value: "3", label: "Tech Roles" },
-  { id: 3, value: "50M+", label: "Apps Downloads" },
+  { id: 3, value: "5M+", label: "Apps Downloads" },
   { id: 4, value: "3+", label: "Projects Completed" },
 ]
 
@@ -69,21 +69,21 @@ export const projects = [
       { name: "Deepseek", color: "blue" },
     ],
   },
-  {
-    title: "AI-Powered Chat Expense Tracker",
-    description: "A chatbot that helps you track your expenses and save money.",
-    image: "/cover-letter-generator.png",
-    demoLink: "https://expense-tracker.krisnadibyo.xyz",
-    githubLink: "https://github.com/krisnadibyo/expense_api",
-    techStack: [
-      { name: "Python", color: "blue" },
-      { name: "FastAPI", color: "blue" },
-      { name: "PostgreSQL", color: "blue" },
-      { name: "Docker", color: "blue" },
-      { name: "Github Actions", color: "blue" },
-      { name: "Deepseek", color: "blue" },
-    ],
-  },
+  // {
+  //   title: "AI-Powered Chat Expense Tracker",
+  //   description: "A chatbot that helps you track your expenses and save money.",
+  //   image: "/cover-letter-generator.png",
+  //   demoLink: "https://expense-tracker.krisnadibyo.xyz",
+  //   githubLink: "https://github.com/krisnadibyo/expense_api",
+  //   techStack: [
+  //     { name: "Python", color: "blue" },
+  //     { name: "FastAPI", color: "blue" },
+  //     { name: "PostgreSQL", color: "blue" },
+  //     { name: "Docker", color: "blue" },
+  //     { name: "Github Actions", color: "blue" },
+  //     { name: "Deepseek", color: "blue" },
+  //   ],
+  // },
   {
     title: "Platform Merdeka Mengajar (Ruang GTK)",
     description: "An Education super app that improves Indonesian teachers' quality",
