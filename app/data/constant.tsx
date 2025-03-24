@@ -86,7 +86,7 @@ export const projects = [
   // },
   {
     title: "Platform Merdeka Mengajar (Ruang GTK)",
-    description: "An Education super app that improves Indonesian teachers' quality",
+    description: "An Education super app that improves Indonesian teacher's quality",
     image: "/pmm.png",
     demoLink: "https://play.google.com/store/apps/details?id=id.belajar.app&hl=gsw",
     githubLink: "",
