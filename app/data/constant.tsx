@@ -99,6 +99,24 @@ export const projects = [
       { name: "Firebase", color: "blue" },
     ],
   },
+  {
+    title: "Youtube RAG Chatbot",
+    description: "A chatbot that uses RAG to answer questions about a youtube video",
+    image: "/youtube_rag.png",
+    demoLink: "https://youtuberag.krisnadibyo.xyz/",
+    githubLink: "https://github.com/krisnadibyo/poc_video_rag",
+    techStack: [
+      { name: "Python", color: "blue" },
+      { name: "FastAPI", color: "blue" },
+      { name: "Langchain", color: "blue" },
+      { name: "Docker", color: "blue" },
+      { name: "OpenAI", color: "blue" },
+      { name: "Whispher", color: "blue" },
+      { name: "Next.js", color: "blue" },
+      { name: "React", color: "blue" },
+      { name: "TypeScript", color: "blue" },
+    ],
+  },
 ]
 
 // Work Experience Section
